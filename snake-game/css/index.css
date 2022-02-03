@@ -1,0 +1,45 @@
+html, body {
+	margin: 0;
+	padding: 10px;
+}
+
+button {
+	background: orange;
+	padding: 20px;
+	border-radius:  2px;
+}
+
+.grid {
+	display:  flex;
+	flex-wrap: wrap;
+	width: 200px;
+	height: 200px;
+	border: solid 2px black;
+}
+
+.square {
+	width: 20px;
+	height: 20px;
+}
+
+.square-odd {
+	background:  #00C853;	
+}
+
+.square-even {
+	background: #00E676;
+}
+
+.snake {
+	background-color: blue;
+	border-radius: 5px;
+}
+
+.snake-head {
+	border-radius:  40px;
+}
+
+.apple {
+	background: red;
+	border-radius: 50%;
+}
